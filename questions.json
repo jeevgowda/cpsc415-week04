@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "purpose": "Single-page factual lookup",
+    "query": "What is the required tag name for the Week 4 assignment submission?",
+    "expected_behavior": "retrieval"
+  },
+  {
+    "id": 2,
+    "purpose": "Single-page course policy lookup",
+    "query": "What are the late submission policies or grace periods described in the syllabus?",
+    "expected_behavior": "retrieval"
+  },
+  {
+    "id": 3,
+    "purpose": "Single-page tool requirement lookup",
+    "query": "Which Python library is specified for zero-dependency HTTP requests in labs?",
+    "expected_behavior": "retrieval"
+  },
+  {
+    "id": 4,
+    "purpose": "Multi-page synthesized inquiry",
+    "query": "How do artifact chain stages progress from Week 1 through Week 6 across multiple lab definitions?",
+    "expected_behavior": "multi_page_retrieval"
+  },
+  {
+    "id": 5,
+    "purpose": "Unanswerable course inquiry producing refusal",
+    "query": "What is the capital city of Mongolia and what was the score of the 1994 World Cup final?",
+    "expected_behavior": "refusal"
+  }
+]
